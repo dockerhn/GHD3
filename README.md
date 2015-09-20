@@ -1,4 +1,6 @@
-![T3kpTun - Dockerhanoi Tool](resources/groupicons.jpeg)
+T3kpTun
+==============
+![Dockerhanoi Tool](resources/Idea_definition.png "T3kpTun definition")
 
 A simple way for dockerizing your applications
 
