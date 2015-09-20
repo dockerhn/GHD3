@@ -1,8 +1,6 @@
-T3kpTun
+T3kpTun - A simple way for dockerizing your applications
 ==============
 ![Dockerhanoi Tool](resources/Idea_definition.png "T3kpTun definition")
-
-A simple way for dockerizing your applications
 
 <p>t3kpTun is a tool to create and manage automatically a website ( based on Wordpress) on Public Cloud ( AWS,..).</p>
 
