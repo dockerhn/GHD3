@@ -2,17 +2,49 @@ T3kpTun - A simple way for dockerizing your applications
 ==============
 ![Dockerhanoi Tool](resources/Idea_definition.png "T3kpTun definition")
 
-<p>t3kpTun is a tool to create and manage automatically a website ( based on Wordpress) on Public Cloud ( AWS,..).</p>
+## What is it
 
-<p>t3kpTun provides several key features:</p>
+* Starting from your github repository, t3kpTun trys to generate Dockerfile describing how to package your source code application. We define the input form in which you could figure out various parameters for the application including webserver (Apache or Tomcat), dependencies, TCP ports, linked services, etc. 
+* t3kpTun supports Dockerfile and Docker compose editor directly from browser so that you could find easily to review and update these generated files if needed.
+* Then, t3kpTun helps to deploy these bundle of your audited files and source code into pre-deployed Swarm cluster under your AWS account.
+* t3kpTun automatically saves both of Dockerfile and Docker compose file for versioning and re-using purpose.
+* t3kpTun supports historical view on your past deployments and building log. You could easily copy a previous deployment by one-click.
 
-<ul>
-<li><p><strong>Dockerfile visualization</strong> - t3kpTun provide a GUI to help build a image based on Dockerfile with a simple way as well as Web Interface.</p></li>
-<li><p><strong>Website Deployment Automation</strong> - A simple Web Interface will help you to automatically build and deploy a marketing website.</p></li>
-<li><p><strong>Health Checking</strong> - Health Checking enables t3kpTun to quickly alert
-operators about any issues of your website, it include: server and web services health.</p></li>
-<li><p><strong>Run on Public Cloud</strong> - t3kpTun is built to be SaaS aware, and can
-support you to deploy your Website on any Public Cloud.</p></li>
-</ul>
+##Targeted User
 
-<p>t3kpTun is a SaaS, however, you can install locally on your PC.</p>
+Developers or Technical staff:
+* Want to run their source code (Github) with Docker native technologies on AWS
+* Have the source code (Github) but don't have or have a little knowledges about Docker before.
+* Look for a simplest way to deploy app on Docker on Public Cloud with best practice from Docker Experts
+
+##Authors
+
+1. Nguyen Sy Thanh Son (https://github.com/thanhson1085)
+2. Tran Huu Cuong (https://github.com/tranhuucuong91)
+3. thaivq7985 (https://github.com/thaivq7985)
+
+T3kpTun is a SaaS, however, you can install locally on your PC
+
+## License - MIT
+
+The T3kpTun code is licensed under the MIT license.
+
+T3kpTun: Copyright (c) 2015 Docker-Ha Noi. http://www.meetup.com/docker-hanoi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
