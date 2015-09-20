@@ -2,7 +2,7 @@ T3kpTun - A simple way for dockerizing your applications
 ==============
 ![Dockerhanoi Tool](resources/Idea_definition.png "T3kpTun definition")
 
-## What is it
+## What is it?
 
 * Starting from your github repository, t3kpTun trys to generate Dockerfile describing how to package your source code application. We define the input form in which you could figure out various parameters for the application including webserver (Apache or Tomcat), dependencies, TCP ports, linked services, etc. 
 * t3kpTun supports Dockerfile and Docker compose editor directly from browser so that you could find easily to review and update these generated files if needed.
