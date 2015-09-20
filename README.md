@@ -13,7 +13,7 @@ T3kpTun - A simple way for dockerizing your applications
 ##Targeted User
 
 Developers or Technical staffs:
-* Want to run their source code (Github) with Docker native technologies on AWS
+* Want to run their source code (Github) with Docker native technologies on Public Cloud (AWS, Azure,..) or Private Cloud (Openstack, Vmware vCloud,...)
 * Have the source code (Github) but don't have or have a little knowledges about Docker before.
 * Look for a simplest way to deploy app on Docker on Public Cloud with best practice from Docker Experts
 
