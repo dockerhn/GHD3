@@ -17,6 +17,24 @@ Developers or Technical staffs:
 * Have the source code (Github) but don't have or have a little knowledges about Docker before.
 * Look for a simplest way to deploy app on Docker with best practice from Docker Experts
 
+##Architecture
+
+##Requirements
+
+1. [Amazon Web Service Account](https://aws.amazon.com/) 
+2. [GitHub Account](https://github.com/) 
+3. Internet :)
+
+##Getting started
+Dockerize your App and Automatic Deployment with T3kpTun
+http://ec2-52-74-0-120.ap-southeast-1.compute.amazonaws.com/
+
+##Demo
+
+##Local Installation and documentation
+
+##Next Version
+
 ##Authors
 
 1. Nguyen Sy Thanh Son (https://github.com/thanhson1085)
