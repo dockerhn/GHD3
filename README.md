@@ -40,6 +40,7 @@ All tasks to deploy and manage your application on Public Cloud will be implemen
    * Provide a request queue with Redis
 
 ##### How does T3kpTun work?
+T3kpTun is designed to be a minimal, stateless service that is easy to deploy and maintain. The figure below depicts how it works:
 
 
 ##Requirements
