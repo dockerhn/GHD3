@@ -22,7 +22,7 @@ Developers or Technical staffs:
 
 Our application is a SaaS (it is hosted on a IaaS Cloud) with 2 main modules:
 
-1.  Front-End module
+##### Front-End module
    
 Provide WebUI and Dashboard to create and manage your application with T3kpTun. Now, It include:
    * WebUI with simple steps to deploy and manage User's applications (with Next buttons)
@@ -31,7 +31,7 @@ Provide WebUI and Dashboard to create and manage your application with T3kpTun. 
    * User can create file templates for: Dockerfile, Compose file via Web Browsers or use predifined templates 
    * Call to Back-end module to execute steps: deploy apps, get logs(Container's stdout, deployment Logs) and application      health checking
 
-2.  Back-End module
+##### Back-End module
 
 All tasks to deploy and manage your application on Public Cloud will be implemented by the back-end modules. They does some functions:
    * Receiving Request from front-end to generate Dockerfile, Compose file. and then automatically build image, orchestrate user app via Docker Compose to Pubic Cloud
