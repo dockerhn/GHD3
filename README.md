@@ -36,6 +36,11 @@ http://ec2-52-74-0-120.ap-southeast-1.compute.amazonaws.com/
 ##Local Installation and documentation
 
 ##Next Version
+The next version of T3kpTun will have some additional features, like as:
+* Support unlimited-tier application with GUI (Now, T3kpTun support only 2 tier, for example: Web & DB tiers)
+* Choice swarm-cluster when you deploy multiple applications with T3kpTun
+* Push your image to your Dockerhub repository with your account
+* Support other Clouds: Openstack, Vmware, Google Cloud Platform, Azure
 
 ##Authors
 
