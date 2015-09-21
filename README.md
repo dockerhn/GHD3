@@ -55,6 +55,7 @@ Dockerize your App and Automatic Deployment with T3kpTun
 http://ec2-52-74-0-120.ap-southeast-1.compute.amazonaws.com/
 
 ####Demo
+Please  to view on youtube :) https://youtu.be/HqUIEAXqS4Q
 
 ##Local Installation and documentation
 * [Font-End module](fe/)
@@ -71,7 +72,7 @@ The next version of T3kpTun will have some additional features, like as:
 
 1. Nguyen Sy Thanh Son (https://github.com/thanhson1085)
 2. Tran Huu Cuong (https://github.com/tranhuucuong91)
-3. thaivq7985 (https://github.com/thaivq7985)
+3. Vo Quang Thai (https://github.com/thaivq7985)
 
 T3kpTun is a SaaS, however, you can install locally on your PC
 
