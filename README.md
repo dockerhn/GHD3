@@ -1,4 +1,5 @@
-# [T3kpTun](https://github.com/dockerhn/GHD3/) (https://github.com/dockerhn/GHD3/blob/master/resources/VersionStatus.svg "Version Status")
+# [T3kpTun](https://github.com/dockerhn/GHD3/)
+![T3kpTun Status](https://github.com/dockerhn/GHD3/blob/master/resources/VersionStatus.svg "Version Status")
 ###A simple way for dockerizing your applications
 
 ![Dockerhanoi Tool](resources/Idea_definition.png "T3kpTun definition")
