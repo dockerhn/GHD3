@@ -30,7 +30,7 @@ Our application is a SaaS (it is hosted on a IaaS Cloud) with 2 main modules
 * Create file templates for: Dockerfile, Compose file via Web Browsers
 * Call to Back-end module to execute steps to deploy app and get log,.. for Appication monitoring
 
-2. Back-End (Owner: Mr.Cuong) have the functions:
+2. Back-End will do the functions:
 
 * Receiving Api calls from front-end to generate Dockerfile, Compose file. and then automatically build image, orchestrate user app via Docker Compose
 * Using DOcker machine to build Docker Environment on AWS
