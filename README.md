@@ -41,7 +41,7 @@ All tasks to deploy and manage your application on Public Cloud will be implemen
 
 ##### How does T3kpTun work?
 T3kpTun is designed to be a minimal, stateless service that is easy to deploy and maintain. The figure below depicts how it works:
-
+![Dockerhanoi Tool](resources/appflow.png "T3kpTun Flows")
 
 ##Requirements
 
