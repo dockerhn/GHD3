@@ -1,0 +1,12 @@
+web:
+    image: ghd3/counter:0.1
+    volumes:
+        - ./code/:/code
+    ports:
+        - "80:5000"
+    links:
+        - redis:redis
+
+redis:
+    image: redis:3.0
+
