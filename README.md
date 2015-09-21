@@ -20,10 +20,11 @@ Developers or Technical staffs:
 
 ##Architecture
 
-Our application is a SaaS (it is hosted on a IaaS Cloud) with 2 main modules
+Our application is a SaaS (it is hosted on a IaaS Cloud) with 2 main modules:
 
 1. Front-End module
-   Provide WebUI and Dashboard to create and manage your application with T3kpTun. Now, It include:
+   
+Provide WebUI and Dashboard to create and manage your application with T3kpTun. Now, It include:
    * WebUI with simple steps to deploy and manage User's applications (with Next buttons)
    * User registering Page
    * Single sign-on User accounts with Github, AWS Accounts
@@ -31,7 +32,8 @@ Our application is a SaaS (it is hosted on a IaaS Cloud) with 2 main modules
    * Call to Back-end module to execute steps: deploy apps, get logs(Container's stdout, deployment Logs) and application      health checking
   
 2. Back-End module
-   All tasks to deploy and manage your application on Public Cloud will be implemented by the back-end modules. They does some functions:
+   
+All tasks to deploy and manage your application on Public Cloud will be implemented by the back-end modules. They does some functions:
    * Receiving Request from front-end to generate Dockerfile, Compose file. and then automatically build image, orchestrate user app via Docker Compose to Pubic Cloud
    * Using DOcker machine to build Docker Environment on Public Cloud
    * Orchestrating, monitoring user applications and logs checking on Docker Swarm with Docker Compose and Machine
