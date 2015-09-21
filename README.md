@@ -20,7 +20,7 @@ Developers or Technical staffs:
 
 ##Architecture
 
-Our application is a SaaS (it is hosted on a IaaS Cloud) with 2 main modules:
+Our application is a SaaS (it is an EC2 Instance) with 2 main modules:
 
 ##### Front-End module
    
