@@ -57,6 +57,8 @@ http://ec2-52-74-0-120.ap-southeast-1.compute.amazonaws.com/
 ####Demo
 
 ##Local Installation and documentation
+* [Font-End module](fe/)
+* [Back-End module](be/)
 
 ##Next Version
 The next version of T3kpTun will have some additional features, like as:
