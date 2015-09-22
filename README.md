@@ -52,7 +52,7 @@ T3kpTun is designed to be a minimal, stateless service that is easy to deploy an
 ##Getting started
 Dockerize your App and Automatic Deployment with T3kpTun
 
-http://ec2-52-74-0-120.ap-southeast-1.compute.amazonaws.com/
+http://ec2-54-255-208-86.ap-southeast-1.compute.amazonaws.com/
 
 ####Demo
 Please  to view on youtube :) https://youtu.be/HqUIEAXqS4Q
